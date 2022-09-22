@@ -3,6 +3,9 @@ import React from 'react';
 import Featureimg from './components/Featureimg';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Programs from './components/Programs';
+import Offers from './components/Offers';
+
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -44,6 +47,9 @@ function App() {
   <ErrorBoundary>
   <NavBar/>
   <Featureimg/>
+  <Programs/>
+  <Offers/>
+  
   <Footer/>
   </ErrorBoundary>
   
